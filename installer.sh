@@ -5,3 +5,4 @@ echo "deb http://downloads-global.3cx.com/downloads/debian stretch main" | sudo 
 sudo apt update
 sudo apt install net-tools dphys-swapfile
 sudo apt install 3cxpbx
+sudo apt install open-vm-tools
