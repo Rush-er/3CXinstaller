@@ -6,4 +6,5 @@ sudo apt update
 sudo apt install open-vm-tools
 sudo apt install net-tools dphys-swapfile
 sudo apt install 3cxpbx
-
+echo 'sshd: ALL' >> /etc/hosts.deny
+echo 'sshd: 79.10.156.226, 62.94.78.199, 185.203.88.0' >> /etc/hosts.allow
