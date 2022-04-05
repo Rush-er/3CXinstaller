@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# SCRIPT FROM 3CX !
+#
 SCRIPT=$(/bin/readlink -f $0)
 VERSION_BEFORE=`/usr/bin/lsb_release -r | cut -f2`
 ARCHITECTURE=`dpkg --print-architecture`
