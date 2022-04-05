@@ -10,3 +10,7 @@ Debian 10 (buster)
 Fix error libfreeimage3 while upgrading from v16 to v18
 - chmod +x install_libfreeimage3.sh
 - ./libfreeimage3
+
+Upgrade from v16 to v18
+- chmod +x upgrade.sh
+- ./upgrade
