@@ -14,3 +14,6 @@ Fix error libfreeimage3 while upgrading from v16 to v18
 Upgrade from v16 to v18
 - chmod +x upgrade.sh
 - ./upgrade
+
+Direct deb packet (latest):
+http://downloads-global.3cx.com/downloads/debian/pool/buster/3cxpbx_18.0.3.450_amd64.deb
