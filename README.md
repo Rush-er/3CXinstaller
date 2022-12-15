@@ -1,19 +1,19 @@
 # 3CX installer
 
-##Debian 11 (bullseye)
+## Debian 11 (bullseye)
 ### Instruction
 - git clone https://github.com/Rush-er/3CXinstaller
 - chmod +x debian11_installer.sh
 - ./debian11_installer.sh
 
-##Debian 10 (buster)
+## Debian 10 (buster)
 ### Instruction
 - git clone https://github.com/Rush-er/3CXinstaller
 - chmod +x debian10_installer.sh
 - ./debian10_installer.sh
 
 
-##MISC
+## MISC
 
 ### Fix error libfreeimage3 while upgrading from v16 to v18
 - chmod +x install_libfreeimage3.sh
