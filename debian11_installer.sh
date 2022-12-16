@@ -6,6 +6,6 @@ sudo apt update
 sudo apt install gpg -y
 sudo apt install net-tools -y
 sudo apt install nginx -y
-rm -f /etc/nginx/sites-enabled/default
+sudo rm -f /etc/nginx/sites-enabled/default
 sudo systemctl reload nginx
 sudo apt install 3cxpbx
