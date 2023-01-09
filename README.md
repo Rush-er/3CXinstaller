@@ -4,14 +4,14 @@ Repository hosting script for installing 3CX on clean Debian system without the 
 
 `git clone` require git package installed on your system, please check if you have it before continuing.
 
-## Debian 11 (bullseye)
+## Debian 11 (bullseye) TESTING
 ``` 
 git clone https://github.com/Rush-er/3CXinstaller
 chmod +x debian11_installer.sh
 ./debian11_installer.sh
 ```
 
-## Debian 10 (buster) *OLD !*
+## Debian 10 (buster) STABLE INSTALLER
 ``` 
 git clone https://github.com/Rush-er/3CXinstaller
 chmod +x debian10_installer.sh
