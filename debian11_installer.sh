@@ -9,4 +9,7 @@ sudo apt install net-tools -y
 sudo apt install nginx -y
 sudo rm -f /etc/nginx/sites-enabled/default
 sudo systemctl reload nginx
-sudo apt install 3cxpbx
+apt-chache policy 3cxpbx | grep -o '18.*' | grep -o '^\S*'
+echo "Select the Version to intall [PRESS ENTER]: " 
+read version
+sudo apt install 3cxpbx=$version
