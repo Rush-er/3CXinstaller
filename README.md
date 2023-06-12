@@ -33,5 +33,5 @@ chmod +x upgrade.sh
 ./upgrade
 ```
 
-### Direct deb packet (latest):
+### Direct deb packet (18.0.5.418):
 http://repo.3cx.com/3cx/pool/main/3/3cxpbx/3cxpbx_18.0.5.418-deb11_amd64.deb
