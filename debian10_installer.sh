@@ -6,7 +6,7 @@ echo "deb http://repo.3cx.com/3cx buster-testing main" | sudo tee /etc/apt/sourc
 sudo apt update
 sudo apt install open-vm-tools
 sudo apt install net-tools dphys-swapfile
-apt-chache policy 3cxpbx | grep -o '18.*' | grep -o '^\S*'
+apt-cache policy 3cxpbx | grep -o '18.*' | grep -o '^\S*'
 echo "Select the Version to intall [PRESS ENTER]: " 
 read version
 sudo apt install 3cxpbx=$version
