@@ -1,8 +1,11 @@
 # 3CX installer
-
 Repository hosting script for installing 3CX on clean Debian system without the need to use 3CX ISO, also you can find misc script for errors and upgrade.
 
 `git clone` require git package installed on your system, please check if you have it before continuing.
+
+## Features
+- Install 3CX on clean Debian
+- Version selection (Usefull for backup/restore) 
 
 ## Debian 11 (bullseye) TESTING
 ``` 
