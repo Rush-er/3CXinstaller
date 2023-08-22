@@ -10,6 +10,7 @@ Repository hosting script for installing 3CX on clean Debian system without the 
 ## Debian 11 (bullseye) TESTING
 ``` 
 git clone https://github.com/Rush-er/3CXinstaller
+cd 3CXinstaller
 chmod +x debian11_installer.sh
 ./debian11_installer.sh
 ```
@@ -17,6 +18,7 @@ chmod +x debian11_installer.sh
 ## Debian 10 (buster) STABLE INSTALLER
 ``` 
 git clone https://github.com/Rush-er/3CXinstaller
+cd 3CXinstaller
 chmod +x debian10_installer.sh
 ./debian10_installer.sh
 ```
